@@ -1,0 +1,47 @@
+{
+    "intents" : [
+        {
+        "tag": "greeting",
+
+        "patterns" : [
+            "Hi", "Hey", "Hello", "what's up "
+        ],
+    
+        "responses" : [
+            "Hey Khouloud",
+            "How can I help you ? "
+            ]
+        },
+
+    {
+        "tag": "Artificial Intelligence",
+        "patterns": [
+            "what is Artificial Intelligence"
+        ],
+        "responses":[
+            "Artificial intelligence is intelligence demonstrated by machines, as opposed to the natural intelligence displayed by animals and humans. "
+        ]
+    },
+
+    {
+        "tag": "name",
+        "patterns":[
+            "what is your name ?",
+            "what should I call you ?"
+        ],
+        "responses":[
+            "My name is Jake"
+        ]},
+        
+        {
+            "tag":"file",
+            "patterns":[
+                "Create a file",
+                "Create a new file"
+            ],
+            "responses":[
+                "Okay deal"
+            ]
+        }]}
+
+
